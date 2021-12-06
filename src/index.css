@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 2em;
+  margin: auto;
+}
+
+.input {
+  width: 100%;
+  font-size: 1.5rem;
+  border: 2px solid black;
+  padding: 1%
+}
+
+.suggestion {
+  cursor: pointer;
+  border: 2px solid black;
+  border-top: none;
+  font-size: 1.5rem;
+  width: 99%;
+  padding: 1%;
+  background-color: lightgrey;
+}
+
+.suggestion:hover {
+  background-color: lightblue;
+}
